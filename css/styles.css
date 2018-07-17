@@ -1,0 +1,98 @@
+.background {
+  background: #e8f6fc url("../images/bg.jpg") repeat-x;
+}
+
+.content {
+  width: 100%;
+  height: -webkit-fill-available;
+  background: url("../images/header.jpg") no-repeat center top;
+}
+
+header {
+  width: 70%;
+  margin: auto;
+  height: 185px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: #7ca4f3;
+  float: right;
+  width: 50%;
+  border-radius: 15px 15px 0px 0px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font: 17px Arial,Sans-serif;
+  font-weight: bolder;
+}
+nav li {
+  height: 100%;
+}
+nav .list {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .follow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+nav .follow span {
+  color: white;
+  font: 11px Arial,Sans-serif;
+}
+nav .follow .links img {
+  width: 24px;
+  height: 24px;
+}
+
+.main {
+  width: 70%;
+  margin: auto;
+  height: fit-content;
+  background-color: white;
+}
+
+.wrap {
+  width: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.wrap .lf_sidebar, .wrap .rh_sidebar {
+  width: 25%;
+}
+.wrap .center {
+  width: 50%;
+}
+
+.rh_sidebar .login {
+  padding: 5px;
+  height: 150px;
+  background-color: #ffffcc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.rh_sidebar .login span {
+  text-align: center;
+}
+.rh_sidebar .login .email {
+  width: 100%;
+}
+.rh_sidebar .login .inp_email {
+  width: 100%;
+}
+
+/*# sourceMappingURL=styles.css.map */
