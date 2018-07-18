@@ -26,7 +26,7 @@ nav {
 nav a {
   text-decoration: none;
   color: white;
-  font: 17px Arial,Sans-serif;
+  font: 17px Arial, Sans-serif;
   font-weight: bolder;
 }
 nav li {
@@ -48,7 +48,7 @@ nav .follow {
 }
 nav .follow span {
   color: white;
-  font: 11px Arial,Sans-serif;
+  font: 11px Arial, Sans-serif;
 }
 nav .follow .links img {
   width: 24px;
@@ -64,16 +64,20 @@ nav .follow .links img {
 
 .wrap {
   width: auto;
-  height: 100vh;
+  height: fit-content;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding-top: 50px;
 }
-.wrap .lf_sidebar, .wrap .rh_sidebar {
+.wrap .lf_sidebar {
   width: 25%;
 }
+.wrap .rh_sidebar {
+  width: 20%;
+}
 .wrap .center {
-  width: 50%;
+  width: 55%;
 }
 
 .rh_sidebar .login {
@@ -93,6 +97,140 @@ nav .follow .links img {
 }
 .rh_sidebar .login .inp_email {
   width: 100%;
+}
+.rh_sidebar .search {
+  padding-top: 20px;
+}
+.rh_sidebar .search .search_text {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 13px;
+}
+.rh_sidebar .search .inp_btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rh_sidebar .search .inp_btn input {
+  padding-left: 25px;
+}
+
+.lf_sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.lf_sidebar ul {
+  list-style: none;
+  margin-top: -15px;
+}
+.lf_sidebar ul li {
+  font: 12px arial, helvetica, sans-serif;
+  font-weight: bold;
+  color: grey;
+  padding: 5px 0px;
+  border-bottom: 0.5px dotted grey;
+}
+
+.submit,
+.faq,
+.make_own {
+  padding: 35px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  text-align: center;
+}
+
+.center {
+  padding: 35px 0px;
+}
+.center .post {
+  padding: 30px 0px;
+}
+.center .title {
+  background: white;
+  background: -moz-linear-gradient(top, white 0%, white 43%, white 50%, #f5e4f0 78%, #d4b4d4 99%, #b086a5 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, white), color-stop(43%, white), color-stop(50%, white), color-stop(78%, #f5e4f0), color-stop(99%, #d4b4d4), color-stop(100%, #b086a5));
+  background: -webkit-linear-gradient(top, white 0%, white 43%, white 50%, #f5e4f0 78%, #d4b4d4 99%, #b086a5 100%);
+  background: -o-linear-gradient(top, white 0%, white 43%, white 50%, #f5e4f0 78%, #d4b4d4 99%, #b086a5 100%);
+  background: -ms-linear-gradient(top, white 0%, white 43%, white 50%, #f5e4f0 78%, #d4b4d4 99%, #b086a5 100%);
+  background: linear-gradient(to bottom, white 0%, white 43%, white 50%, #f5e4f0 78%, #d4b4d4 99%, #b086a5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#b086a5', GradientType=0);
+  border-radius: 5px;
+  width: 80%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+}
+.center .title p {
+  padding: 5px 0px;
+  text-align: center;
+}
+.center .post_img {
+  padding: 15px 0px 25px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.center .post_img a {
+  margin-left: 10px;
+}
+.center .post_img a img {
+  border: 10px solid #95cbcf;
+}
+.center .post_img span {
+  font-size: 12px;
+}
+.center .post_img .italic {
+  font-style: italic;
+}
+.center .rate {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+}
+.center .rate .first_span, .center .rate .span_num {
+  font-weight: bold;
+}
+.center .rate .text_posted {
+  color: grey;
+}
+.center .rate .rating_row, .center .rate .posted {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.center .rate .rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.center .rate .rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.center .rate .rating > span:hover:before,
+.center .rate .rating > span:hover ~ span:before {
+  content: "\2605";
+  position: absolute;
+}
+.center .rate .rate_links a {
+  text-decoration: none;
+  color: grey;
+}
+.center .rate .rate_links a span {
+  padding-right: 7px;
+  border-right: 1px solid grey;
+}
+.center .rate .rate_links a span:hover {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=styles.css.map */
