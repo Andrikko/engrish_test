@@ -77,9 +77,13 @@ nav .follow .links img {
   width: 20%;
 }
 .wrap .center {
-  width: 55%;
+  width: 75%;
 }
 
+.rh_sidebar {
+  margin: 0px 20px 0px 20px;
+  padding-top: 100px;
+}
 .rh_sidebar .login {
   padding: 5px;
   height: 150px;
@@ -89,11 +93,14 @@ nav .follow .links img {
   justify-content: space-between;
   align-items: center;
 }
-.rh_sidebar .login span {
+.rh_sidebar .login .news {
   text-align: center;
+  color: grey;
+  font-size: 14px;
 }
 .rh_sidebar .login .email {
-  width: 100%;
+  font-size: 13px;
+  font-weight: bold;
 }
 .rh_sidebar .login .inp_email {
   width: 100%;
@@ -112,7 +119,7 @@ nav .follow .links img {
   align-items: center;
 }
 .rh_sidebar .search .inp_btn input {
-  padding-left: 25px;
+  width: 90%;
 }
 
 .lf_sidebar {

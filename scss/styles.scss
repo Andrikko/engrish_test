@@ -47,7 +47,8 @@ nav {
         align-items: center;
         span {
             color: white;
-            font: 11px Arial, Sans-serif; // margin-bottom: 3px;
+            font: 11px Arial, Sans-serif; 
+            // margin-bottom: 3px;
         }
         .links {
             img {
@@ -81,19 +82,25 @@ nav {
         width: 20%;
     }
     .center {
-        width: 55%;
+        width: 75%;
     }
 }
 
 .rh_sidebar {
+    margin: 0px 20px 0px 20px;
+    padding-top: 100px;
     .login {
         padding: 5px;
         height: 150px;
-        span {
+        .news{
             text-align: center;
+            color: grey;
+            font-size: 14px;
         }
         .email {
-            width: 100%;
+            // width: 100%;
+            font-size: 13px;
+            font-weight: bold;
         }
         .address_email {
             // padding: 10px 0px;
@@ -115,12 +122,12 @@ nav {
         }
         padding-top: 20px;
         .inp_btn {
-            input {
-                padding-left: 25px;
-            }
             display: flex;
             justify-content: space-between;
             align-items: center;
+            input{
+                width: 90%;
+            }
         }
     }
 }
@@ -264,6 +271,7 @@ nav {
     color: grey;
 }
 
+
 .pagination a {
     color: black;
     float: left;
@@ -296,7 +304,6 @@ footer{
     margin: auto;
     display: flex;
     flex-direction: column;
-    // align-items: center;
     margin-bottom: 20px;
     ul{
         display: flex;
