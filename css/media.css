@@ -1,0 +1,64 @@
+@media (min-width: 1024px) and (max-width: 1150px){
+    .rh_sidebar{width: 20%;}
+    .rh_sidebar .login{height: 200px;}
+    .center .post_img a img{max-width: 466px;}
+    .center{padding-left: 15px;}
+    .wrap .lf_sidebar img{width: 100%;}
+    .wrap .lf_sidebar ul li a{font-size: 10px;}
+    footer .footer_li,
+    footer .footer_last_li a{
+        font-size: 9px;
+    }
+  }
+
+  @media (min-width: 1024px) and (max-width: 1305px){
+      footer .footer_li, 
+      footer .footer_last_li a{
+          font-size: 11px;
+      }
+  }
+
+  @media (min-width: 1400px) and (max-width: 1680px){
+    .center{padding-left: 0px;}
+    .lf_sidebar .lf_img{width: 85%;}
+    .lf_sidebar .submit img,
+    .lf_sidebar .faq img,
+    .lf_sidebar .make_own img{
+        width: 266px;
+    }
+  }
+  @media (min-width: 1690px) and (max-width: 1920px){
+
+    .lf_sidebar .lf_img{width: 90%;}
+    .lf_sidebar ul li a{font-size: 16px;}
+    .lf_sidebar span{font-size: 1.4em;}
+    .lf_sidebar .submit img,
+    .lf_sidebar .faq img,
+    .lf_sidebar .make_own img{
+        width: 300px;
+    }
+
+    .center .post_img span,
+    .center .title,
+    .center .date,
+    .center .rate{
+        font-size: 1.3em;
+    }
+
+    .center .post_img a img{
+        min-width: 650px;
+    }
+
+    .rh_sidebar .login .news,
+    .rh_sidebar .login .email,
+    .rh_sidebar .login .subscribe,
+    .rh_sidebar .login .search .search_text{
+        font-size: 1.2em;
+    } 
+    .rh_sidebar .login{height: 250px;}
+
+    footer .footer_li, 
+      footer .footer_last_li a{
+          font-size: 19px;
+      }
+  }
